@@ -1,0 +1,76 @@
+# Git Ignore
+
+# Arquivos do Sistema Operacional
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDEs e Editores
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# Ambientes Python (se usar scripts auxiliares)
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Node modules (se usar ferramentas npm)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Arquivos compilados e build
+build/
+dist/
+out/
+*.jar
+*.class
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.bak
+*.log
+*.old
+
+# Arquivos de locks (pode deixar git ignorar, ou rastrear)
+package-lock.json
+yarn.lock
+
+# Pastas customizadas para o projeto
+dev_builds/
+testing/
+temp/
+
+# Secrets e configurações locais (NUNCA commitar!)
+.env
+.env.local
+secrets.json
+credentials.json
+
+# Cache de build tools
+.gradle/
+target/
+.maven/
+
+# Backups de brainmaps
+brainmap_backup.zip
+world_backups/
+
+# Arquivos específicos do Minecraft Development
+*.mcstructure
+*.mcfunction_backup
+
+# Compiled TypeScript output (run `npm run build` to generate)
+behavior_pack/scripts/
+
+# TypeScript build info
+*.tsbuildinfo

@@ -1,0 +1,28 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Quest System BP",
+    "description": "Procedural quest generation system with tracking and rewards",
+    "uuid": "c12e1111-0000-4000-9000-000000000001",
+    "version": [1,0,0],
+    "min_engine_version": [1,20,0]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "uuid": "c12e1111-0000-4000-9000-000000000002",
+      "version": [1,0,0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "c12e1111-0000-4000-9000-000000000003",
+      "version": [1,0,0]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.8.0"
+    }
+  ]
+}

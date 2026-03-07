@@ -1,0 +1,32 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Economy System BP",
+    "description": "Persistent economy system with REST API and PostgreSQL backend",
+    "uuid": "d13e1111-0000-4000-9000-000000000001",
+    "version": [1,0,0],
+    "min_engine_version": [1,20,0]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "uuid": "d13e1111-0000-4000-9000-000000000002",
+      "version": [1,0,0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "d13e1111-0000-4000-9000-000000000003",
+      "version": [1,0,0]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.8.0"
+    },
+    {
+      "module_name": "@minecraft/server-net",
+      "version": "1.0.0-beta"
+    }
+  ]
+}

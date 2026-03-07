@@ -1,0 +1,28 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Dash Ability BP",
+    "description": "Dash ability behavior pack",
+    "uuid": "b1b8c7f0-0000-4b0c-9000-000000000001",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "uuid": "b1b8c7f0-0000-4b0c-9000-000000000002",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "b1b8c7f0-0000-4b0c-9000-000000000003",
+      "version": [1, 0, 0]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.8.0"
+    }
+  ]
+}

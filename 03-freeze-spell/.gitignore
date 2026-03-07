@@ -1,0 +1,60 @@
+# Minecraft Bedrock Edition Addon .gitignore
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.env
+
+# Node.js (para futuros projetos com build tools)
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# IDEs e Editores
+.vscode/
+.idea/
+*.swp
+*.sublime-workspace
+*.sublime-project
+.project
+.classpath
+.settings/
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.log
+*.bak
+*.backup
+~*
+
+# Minecraft Bedrock/BDS
+*.bbmodel
+.mcaddon
+*.mcpack
+
+# Cache de compilação
+build/
+dist/
+out/
+
+# Arquivos de build
+*.zip
+*.rar
+*.7z
+
+# Arquivos de teste local
+world_test/
+test_world/
+.test/
+
+# Compiled TypeScript output (run `npm run build` to generate)
+behavior_pack/scripts/
+
+# TypeScript build info
+*.tsbuildinfo

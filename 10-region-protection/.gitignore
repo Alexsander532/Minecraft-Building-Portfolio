@@ -1,0 +1,8 @@
+# Compiled TypeScript output (run `npm run build` to generate)
+behavior_pack/scripts/
+
+# Dependencies
+node_modules/
+
+# TypeScript build info
+*.tsbuildinfo

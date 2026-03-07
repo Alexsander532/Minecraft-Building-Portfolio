@@ -1,0 +1,28 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Gravity Wand BP",
+    "description": "Makes nearby mobs levitate when using a wand",
+    "uuid": "7a2e1111-0000-4000-9000-000000000001",
+    "version": [1,0,0],
+    "min_engine_version": [1,20,0]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "uuid": "7a2e1111-0000-4000-9000-000000000002",
+      "version": [1,0,0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "7a2e1111-0000-4000-9000-000000000003",
+      "version": [1,0,0]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.8.0"
+    }
+  ]
+}

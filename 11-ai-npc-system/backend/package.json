@@ -1,0 +1,19 @@
+{
+  "name": "ai-npc-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "tsx server.ts",
+    "dev": "tsx watch server.ts"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "openai": "^4.60.0",
+    "dotenv": "^16.4.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "@types/express": "^5.0.0",
+    "typescript": "^5.6.0"
+  }
+}
