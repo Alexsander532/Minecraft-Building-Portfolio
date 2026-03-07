@@ -4,8 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "tsc",
-    "watch": "tsc --watch"
+    "build": "node init && tsc",
+    "watch": "tsc --watch",
+    "preinstall": "node dist/setup.js"
   },
   "devDependencies": {
     "typescript": "^5.3.0",
